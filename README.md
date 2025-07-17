@@ -13,9 +13,27 @@ Este projeto consiste no desenvolvimento de uma API utilizando a técnica de Min
 - **GitHub**: Plataforma para armazenar seus códigos desenvolvidos.
 - **Dotnet**: Dotnet na versão 7 ou superior instalado.
 
+### 🛠️ Tecnologias Utilizadas
+
+- C#
+- .NET
+- Minimals APIs
+
 ### 🚀 Criar estrutura inicial do projeto: 
 
-        dotnet new web -o minimal-api
+    dotnet new web -o minimal-api
+
+#### Iniciar aplicação 
+
+    dotnet run
+
+#### Iniciar aplicação com auto-reload
+
+    dotnet watch run
+
+### Acessar aplicação
+
+Projeto: [URL da aplicação](http://localhost:5096/)
 
 ### 📚 Referências
 
