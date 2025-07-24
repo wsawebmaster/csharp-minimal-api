@@ -31,12 +31,32 @@ Este projeto consiste no desenvolvimento de uma API utilizando a técnica de Min
 
     dotnet watch run
 
+#### Iniciar .Net Entity Framework
+    
+    dotnet tool install --global dotnet-ef
+
+#### Criar pasta e arquivos de Migrations
+
+    dotnet ef migrations add AdministradorMigration
+
+#### Criar banco e tabelas
+
+    dotnet ef database update
+
 ### Acessar aplicação
 
 Projeto: [URL da aplicação](http://localhost:5096/)
 
 ### 📚 Referências
 
+- [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/9.0.7)
+- [EntityFrameworkCoreDesign](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/9.0.7)
+- [EntityFrameworkCoreTools](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/9.0.7)
+- [EntityFrameworkCoreMySql](https://www.nuget.org/packages/Pomelo.EntityFrameworkCore.MySql/9.0.0-preview.3.efcore.9.0.0)
+- [.NetEntityFramework](https://learn.microsoft.com/en-us/ef/core/cli/dotnet)
+
+
+- [GitignoreIo](https://www.toptal.com/developers/gitignore)
 - [Repositório](https://github.com/digitalinnovationone/minimal-api) - Repositório referência DIO
 - [Miro](https://miro.com/pt/) - Criar quadros, diagramas, desenhos e outros conteúdos
 - [Trello](https://www.trello.com/) - Gerencie seus projetos com quadros estilo Kanban
