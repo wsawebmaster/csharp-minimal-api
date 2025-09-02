@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  dotnet:
+    image: mcr.microsoft.com/devcontainers/dotnet:1-9.0-bookworm
+    volumes:
+      - ..:/workspace:cached
+      - /home/wsawebmaster/.gitconfig:/home/vscode/.gitconfig:ro
+      - /home/wsawebmaster/.ssh:/home/vscode/.ssh:ro
+    command: sleep infinity
+    networks:
+      - app-network
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: minimal_api
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+
+volumes:
+  mysql-data:
+
+networks:
+  app-network:
+    driver: bridge

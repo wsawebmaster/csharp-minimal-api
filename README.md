@@ -31,9 +31,13 @@ Este projeto consiste no desenvolvimento de uma API utilizando a técnica de Min
 
     dotnet watch run
 
-#### Iniciar .Net Entity Framework
+#### Instalar a ferramenta .Net Entity Framework
     
     dotnet tool install --global dotnet-ef
+
+#### Confirmar instalação checando a versão
+
+    dotnet-ef --version
 
 #### Criar pasta e arquivos de Migrations
 
@@ -46,6 +50,11 @@ Este projeto consiste no desenvolvimento de uma API utilizando a técnica de Min
 ### Acessar aplicação
 
 Projeto: [URL da aplicação](http://localhost:5096/)
+
+#### Criar Seed para cadastrar administrador padrão 
+##### Rodar o comando para criar banco e tabelas novamente para aplicar migration Seed
+
+    dotnet ef migrations add SeedAdministrador
 
 ### 📚 Referências
 
