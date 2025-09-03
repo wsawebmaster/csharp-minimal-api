@@ -384,3 +384,10 @@ D:/my_projects_d/dio/csharp/minimal-api/obj/Debug/net9.0/minimal-.F3613C90.Up2Da
 /workspace/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /workspace/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /workspace/obj/Debug/net9.0/minimal-api.MvcApplicationPartsAssemblyInfo.cs
+/workspace/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/workspace/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/workspace/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/workspace/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/workspace/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/workspace/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/workspace/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll

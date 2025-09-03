@@ -62,9 +62,10 @@ Projeto: [URL da aplicação](http://localhost:5096/)
 
 - [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/9.0.7)
 - [EntityFrameworkCoreDesign](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/9.0.7)
-- [Swashbuckle.AspNetCore](http://localhost:5096/swagger/index.html)
 - [EntityFrameworkCoreTools](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/9.0.7)
 - [EntityFrameworkCoreMySql](https://www.nuget.org/packages/Pomelo.EntityFrameworkCore.MySql/9.0.0-preview.3.efcore.9.0.0)
+- [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore)
+- [Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/7.0.14)
 - [.NetEntityFramework](https://learn.microsoft.com/en-us/ef/core/cli/dotnet)
 
 
