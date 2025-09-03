@@ -378,3 +378,4 @@ D:/my_projects_d/dio/csharp/minimal-api/obj/Debug/net9.0/minimal-.F3613C90.Up2Da
 /workspace/obj/Debug/net9.0/minimal-api.pdb
 /workspace/obj/Debug/net9.0/minimal-api.genruntimeconfig.cache
 /workspace/obj/Debug/net9.0/ref/minimal-api.dll
+/workspace/obj/Debug/net9.0/minimal-api.sourcelink.json

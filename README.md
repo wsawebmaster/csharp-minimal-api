@@ -42,6 +42,8 @@ Este projeto consiste no desenvolvimento de uma API utilizando a técnica de Min
 #### Criar pasta e arquivos de Migrations
 
     dotnet ef migrations add AdministradorMigration
+    dotnet ef migrations add VeiculosMigration
+
 
 #### Criar banco e tabelas
 
