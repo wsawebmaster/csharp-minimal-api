@@ -75,6 +75,7 @@ Projeto: [URL da aplicação](http://localhost:5096/)
 - [Trello](https://www.trello.com/) - Gerencie seus projetos com quadros estilo Kanban
 - [Draw.io](https://www.draw.io/) - Desenvolva mapas mentais e diagramas
 - [Planing](https://planningpokeronline.com/) - Auxiliar equipes a estimar o esforço necessário para completar tarefas
+- [JWT Debugger](https://www.jwt.io/) - Validar JSON Web Token (JWT) Debugger
 
 
 ---
