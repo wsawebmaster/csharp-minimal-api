@@ -379,3 +379,8 @@ D:/my_projects_d/dio/csharp/minimal-api/obj/Debug/net9.0/minimal-.F3613C90.Up2Da
 /workspace/obj/Debug/net9.0/minimal-api.genruntimeconfig.cache
 /workspace/obj/Debug/net9.0/ref/minimal-api.dll
 /workspace/obj/Debug/net9.0/minimal-api.sourcelink.json
+/workspace/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/workspace/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/workspace/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspace/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/workspace/obj/Debug/net9.0/minimal-api.MvcApplicationPartsAssemblyInfo.cs
