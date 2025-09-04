@@ -58,6 +58,21 @@ Projeto: [URL da aplicação](http://localhost:5096/)
 
     dotnet ef migrations add SeedAdministrador
 
+### Criar uma solução / Adicionar projetos dentro da solução
+
+    dotnet new sln
+    dotnet sln add Api/minimal-api.csproj
+
+### Criar novo projeto de Test usando mstest
+
+    dotnet new --list
+    dotnet new mstest -o Test
+    dotnet sln add Test/Test.csproj
+
+### Referenciar projeto a pasta Test - acessar pasta Test
+
+    dotnet add reference ../Api/minimal-api.csproj
+
 ### 📚 Referências
 
 - [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/9.0.7)
