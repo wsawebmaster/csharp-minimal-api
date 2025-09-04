@@ -5,7 +5,7 @@
 
 ### 📃 Sobre o Projeto
 
-Este projeto consiste no desenvolvimento de uma API utilizando a técnica de Minimals APIs para o registro de veículos realizado pela plataforma **DIO**.
+API utilizando a técnica de Minimals APIs para o registro de veículos realizado pela plataforma **DIO**.
 
 ### ⚙️ Pré-requisitos
 
