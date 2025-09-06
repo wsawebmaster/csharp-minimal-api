@@ -51,7 +51,7 @@ API utilizando a técnica de Minimals APIs para o registro de veículos realizad
 
 ### Acessar aplicação
 
-Projeto: [URL da aplicação](http://localhost:5096/)
+Projeto: [URL da aplicação](http://localhost:5096/swagger/index.html)
 
 #### Criar Seed para cadastrar administrador padrão 
 ##### Rodar o comando para criar banco e tabelas novamente para aplicar migration Seed
@@ -72,6 +72,47 @@ Projeto: [URL da aplicação](http://localhost:5096/)
 ### Referenciar projeto a pasta Test - acessar pasta Test
 
     dotnet add reference ../Api/minimal-api.csproj
+
+### Alguns comandos úteis para acessar o container e praticar SQL via terminal
+
+    docker ps --format '{{.Names}}'
+
+    docker exec -it minimal-api_devcontainer-mysql-1 bash
+
+    mysql -u root -p'rootpassword'
+    CREATE DATABASE minimal_apitest;
+    SHOW DATABASES;
+    exit;
+
+    mysql -h mysql -u root -p'rootpassword'
+    USE minimal_apitest;
+    SHOW TABLES;
+    SELECT * FROM Administradores;
+
+    INSERT INTO Administradores (Email, Senha, Perfil)
+    VALUES ('joao@teste.com', 'editor', 'Editor');
+
+    UPDATE Administradores
+    SET Senha = 'editor'
+    WHERE Email = 'joao@teste.com';
+
+    DROP DATABASE minimal_apitest;
+
+### Dump do Banco original na pasta Test e restaurar para o banco minimal_apitest via terminal comum e via workspace do Dev Container
+
+    mysqldump -uroot -p'rootpassword' minimal_api > minimal_api.dump.sql
+
+    mysql -u root -p'rootpassword' minimal_apitest < minimal_api.dump.sql
+
+    mysqldump -h mysql -u root -p'rootpassword' minimal_api > minimal_api.dump.sql
+
+    mysql -h mysql -u root -p'rootpassword' minimal_apitest < minimal_api.dump.sql
+
+### Comandos para Teste
+
+    dotnet test
+    dotnet test --filter "Name=TestandoSalvarAdministrador"
+    dotnet test --filter "Name=TestandoBuscaPorId"
 
 ### 📚 Referências
 
