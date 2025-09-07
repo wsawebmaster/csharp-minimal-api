@@ -114,6 +114,10 @@ Projeto: [URL da aplicação](http://localhost:5096/swagger/index.html)
     dotnet test --filter "Name=TestandoSalvarAdministrador"
     dotnet test --filter "Name=TestandoBuscaPorId"
 
+### Front End da Aplicação
+
+![Documentação Swagger](swagger.png)
+
 ### 📚 Referências
 
 - [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/9.0.7)
