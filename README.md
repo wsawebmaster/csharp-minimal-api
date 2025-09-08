@@ -98,6 +98,9 @@ Projeto: [URL da aplicação](http://localhost:5096/swagger/index.html)
 
     DROP DATABASE minimal_apitest;
 
+    docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q) && docker network rm $(docker network ls -q)
+
+
 ### Dump do Banco original na pasta Test e restaurar para o banco minimal_apitest via terminal comum e via workspace do Dev Container
 
     mysqldump -uroot -p'rootpassword' minimal_api > minimal_api.dump.sql
